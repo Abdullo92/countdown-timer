@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('ramadan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* padding-left: 20px 20px; */
+}
+h1 {
+    font-size: 45px;
+    color: #333533;
+    font-family: Georgia, serif;;
+    padding: 50px 5px 10px 5px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px 20px;
+}
+.digit_count {
+    color: #333533;
+    font-size: 80px;
+    margin: 0 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Georgia, serif, Tahoma, sans-serif;
+    
+}
+.cont_el {
+    text-align: center;
+    color: #333533;
+}
+.cont_el span {
+    font-size: 25px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Georgia, serif, Tahoma, sans-serif;
+}
